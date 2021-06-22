@@ -103,7 +103,7 @@ main .header {
   color: var(--white);
   font-weight: lighter;
   font-family: var(--font-barlow);
-  font-size: 14px;
+  font-size: 18px;
 }
 .header .main-header .navbar .menu .contact {
   background: var(--white);
@@ -113,9 +113,10 @@ main .header {
   outline: none;
   vertical-align: middle;
   display: inline-block;
-  padding: 14px 22px;
+  padding: 16px 24px;
   border-radius: 40px;
   cursor: pointer;
+  font-size: 14px;
   transition: background 0.3s ease;
 }
 .header .main-header .navbar .menu .contact:hover {
@@ -138,7 +139,7 @@ main .header {
 .second-container .second-item,
 .third-container .first-item,
 .third-container .second-item {
-  padding: 10rem;
+  padding: 8rem;
 }
 .first-container .second-item,
 .second-container .first-item,
@@ -227,6 +228,7 @@ main .header {
 .third-container .first-item,
 .third-container .second-item {
   padding-top: 25rem;
+  padding-left: 15rem;
 }
 
 .third-container .first-item h3,
@@ -338,6 +340,9 @@ main .header {
 }
 main .header .text-center {
   margin-top: 124px;
+}
+#logo img {
+  width: 200px;
 }
 /* ==================================== */
 
@@ -512,6 +517,9 @@ main .header .text-center {
     cursor: pointer;
     margin: 10px auto;
     transition: background 0.3s ease;
+  }
+  #logo img {
+    width: 100px;
   }
 }
 
